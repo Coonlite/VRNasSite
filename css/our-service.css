@@ -1,0 +1,34 @@
+@import url(./blocks.css);
+@import url(./btn.css);
+@import url(./text.css);
+
+.container-header{
+    margin-bottom: 112px;
+}
+
+.card-service-main{
+    margin-top: 300px;
+}
+
+.card-happy-clients{
+    text-align: center;
+}
+
+.container-happy-clients{
+    margin: 210px auto 210px ;
+}
+
+@media(max-width:768px){
+    .container-happy-clients{
+        margin: 150px auto 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .pricing__subtitle{
+        text-align: start;
+    }
+}
+
+

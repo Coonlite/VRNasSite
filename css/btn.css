@@ -1,0 +1,13 @@
+.btn{
+display: block;
+padding: 18px 38px;
+background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+max-width: 208px;
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+cursor: pointer;
+}

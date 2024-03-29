@@ -1,0 +1,90 @@
+@import url(./blocks.css);
+@import url(./btn.css);
+@import url(./text.css);
+@import url(./pricing-plan.css);
+
+.container-header{
+    margin-bottom: 112px;
+}
+
+.container-about{
+    margin-top: 300px;
+}
+
+.container-about p{
+    max-width: 625px;
+    line-height: 28px;
+}
+
+.card-about__subtitle{
+    max-width: 708px;
+    margin-bottom: 18px;
+}
+
+.light img{
+    position: relative;
+    z-index: 1;
+}
+
+.light::before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 60%;
+    width: 25%;
+    height: 30%;
+    background: linear-gradient(98.54deg,#1cc4f9cc .72%,#fe69fecc 90.69%);
+    filter: blur(105px);
+    transform: translate(0%,60%) rotate(-30deg);
+}
+
+.atributes__top{
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.container-atributes{
+    margin-top: 54px;
+}
+
+.atributes__subtitle{
+    max-width: 708px;
+    text-align: center;
+}
+
+.btn-our {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.container-our__top {
+    margin: 150px auto 40px;
+}
+
+@media (max-width:1024px){
+    .team__column{
+        display: flex;
+        flex-direction: row;
+    }
+    .container-team{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:768px){
+    .container-about{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:426px){
+    .team__column{
+        flex-direction: column;
+    }
+}
